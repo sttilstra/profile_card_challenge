@@ -1,0 +1,107 @@
+/* tag selectors */
+
+body {
+  background: floralwhite;
+  text-align: center;
+  margin: 0;
+}
+
+
+h3 {
+  font-family: Kumbh Sans;
+  font-weight: 700;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: auto;
+}
+
+ h4 {
+  font-family: Kumbh Sans;
+  font-weight: 400;
+  margin-bottom: 27px;
+ }
+
+
+
+
+/* class selectors */
+
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #19a2ae;
+    line-height: 0;
+}
+
+
+
+
+.top_card {
+  background: white;
+  position: relative;
+  border-radius: 15px;
+}
+
+.top_card_image {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+
+
+.bio {
+  background-color: white;
+}
+
+.age {
+  font-weight: lighter;
+}
+
+
+.top_stats {
+  font-weight: bold;
+  position: relative;
+}
+
+
+
+.profile_pic {
+  position: relative;
+  bottom: 20px;
+}
+
+.victor_image {
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+  border-radius: 50px;
+  position: relative;
+  bottom: 32px;
+
+}
+
+
+
+.followers {
+  display: inline-block;
+  position: relative;
+  right: 52px;
+}
+
+.likes {
+
+  display: inline-block;
+  position: relative;
+  right: 10px;
+
+}
+
+.photos {
+  display: inline-block;
+  position: relative;
+  left: 38px;
+
+}
